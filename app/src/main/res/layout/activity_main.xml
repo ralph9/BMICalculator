@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_sides_title_main"
+        android:layout_marginLeft="@dimen/margin_sides_title_main"
+        android:layout_marginTop="@dimen/margin_top_title_main"
+        android:layout_marginEnd="@dimen/margin_end_title_main"
+        android:layout_marginRight="@dimen/margin_right_title_main"
+        android:layout_marginBottom="@dimen/margin_bottom_title_main"
+        android:text="@string/bmi_calculator"
+        android:textSize="@dimen/text_size_title_main"
+        app:layout_constraintBottom_toTopOf="@+id/textHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_input_height_main"
+        android:layout_marginEnd="@dimen/margin_end_input_height_main"
+        android:layout_marginRight="@dimen/margin_right_input_height_main"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeight"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_weight_main"
+        android:layout_marginEnd="@dimen/margin_end_text_weight_main"
+        android:layout_marginRight="@dimen/margin_right_text_weight_main"
+        android:text="@string/weight_kg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputHeight" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_button_calculate_main"
+        android:layout_marginEnd="@dimen/margin_end_button_calculate_main"
+        android:layout_marginRight="@dimen/margin_right_button_calculate_main"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputWeight" />
+
+    <EditText
+        android:id="@+id/inputWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_input_weight_main"
+        android:layout_marginEnd="@dimen/margin_end_input_weight_main"
+        android:layout_marginRight="@dimen/margin_right_input_weight_main"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWeight" />
+
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_height_main"
+        android:layout_marginEnd="@dimen/margin_end_text_height_main"
+        android:layout_marginRight="@dimen/margin_right_text_height_main"
+        android:text="@string/height_cm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_text_result_main"
+        android:layout_marginLeft="@dimen/margin_left_text_result_main"
+        android:layout_marginTop="@dimen/margin_top_text_result_main"
+        android:layout_marginEnd="@dimen/margin_end_text_result_main"
+        android:layout_marginRight="@dimen/margin_right_text_result_main"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:padding="@dimen/padding_text_result_main"
+        android:text="@string/bmi_result"
+        android:textSize="@dimen/text_size_text_result_main"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalculate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

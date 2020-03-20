@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMIDetails">
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_title_details"
+        android:layout_marginEnd="@dimen/margin_end_title_details"
+        android:layout_marginRight="@dimen/margin_right_title_details"
+        android:text="Details"
+        android:textSize="@dimen/text_size_title_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Details" />
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_sides_category_details"
+        android:layout_marginLeft="@dimen/margin_sides_category_details"
+        android:layout_marginTop="@dimen/margin_top_category_details"
+        android:text="Category:"
+        android:textSize="@dimen/text_size_category_details"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailsTitle" />
+
+    <TextView
+        android:id="@+id/categoryLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_sides_label_details"
+        android:layout_marginLeft="@dimen/margin_sides_label_details"
+        android:layout_marginTop="@dimen/margin_top_label_details"
+        android:text="Test text"
+        android:textSize="@dimen/text_size_label_details"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/categoryTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_sides_text_details"
+        android:layout_marginLeft="@dimen/margin_sides_text_details"
+        android:layout_marginTop="@dimen/margin_top_text_details"
+        android:layout_marginEnd="@dimen/margin_end_text_details"
+        android:layout_marginRight="@dimen/margin_right_text_details"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="@dimen/padding_text_details"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryLabelText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_start_title_about">116dp</dimen>
+    <dimen name="margin_left_title_about">116dp</dimen>
+    <dimen name="margin_top_title_about">83dp</dimen>
+    <dimen name="text_size_title_about">24sp</dimen>
+
+
+    <dimen name="margin_start_name_about">132dp</dimen>
+    <dimen name="margin_left_name_about">132dp</dimen>
+    <dimen name="text_size_name_about">18sp</dimen>
+    <dimen name="margin_top_name_about">64dp</dimen>
+
+    <dimen name="width_image_about">169dp</dimen>
+    <dimen name="height_image_about">155dp</dimen>
+    <dimen name="margin_image_sides_about">121dp</dimen>
+    <dimen name="margin_top_image_about">36dp</dimen>
+
+    <dimen name="margin_text_about">16dp</dimen>
+    <dimen name="padding_text_about">50dp</dimen>
+    <dimen name="text_size_text_about">16sp</dimen>
+
+
+
+    <dimen name="margin_sides_title_main">128dp</dimen>
+    <dimen name="margin_left_title_main">128dp</dimen>
+    <dimen name="margin_right_title_main">127dp</dimen>
+    <dimen name="margin_top_title_main">47dp</dimen>
+    <dimen name="margin_end_title_main">127dp</dimen>
+    <dimen name="margin_bottom_title_main">69dp</dimen>
+    <dimen name="text_size_title_main">24sp</dimen>
+
+    <dimen name="margin_top_input_height_main">15dp</dimen>
+    <dimen name="margin_end_input_height_main">99dp</dimen>
+    <dimen name="margin_right_input_height_main">99dp</dimen>
+
+    <dimen name="margin_top_text_weight_main">28dp</dimen>
+    <dimen name="margin_end_text_weight_main">240dp</dimen>
+    <dimen name="margin_right_text_weight_main">240dp</dimen>
+
+    <dimen name="margin_top_button_calculate_main">62dp</dimen>
+    <dimen name="margin_end_button_calculate_main">155dp</dimen>
+    <dimen name="margin_right_button_calculate_main">155dp</dimen>
+
+    <dimen name="margin_top_input_weight_main">13dp</dimen>
+    <dimen name="margin_end_input_weight_main">99dp</dimen>
+    <dimen name="margin_right_input_weight_main">99dp</dimen>
+
+    <dimen name="margin_top_text_height_main">56dp</dimen>
+    <dimen name="margin_end_text_height_main">236dp</dimen>
+    <dimen name="margin_right_text_height_main">236dp</dimen>
+
+    <dimen name="margin_start_text_result_main">122dp</dimen>
+    <dimen name="margin_left_text_result_main">122dp</dimen>
+    <dimen name="margin_top_text_result_main">74dp</dimen>
+    <dimen name="margin_end_text_result_main">120dp</dimen>
+    <dimen name="margin_right_text_result_main">120dp</dimen>
+    <dimen name="padding_text_result_main">24dp</dimen>
+    <dimen name="text_size_text_result_main">24sp</dimen>
+
+    <dimen name="margin_top_title_details">73dp</dimen>
+    <dimen name="margin_end_title_details">169dp</dimen>
+    <dimen name="margin_right_title_details">169dp</dimen>
+    <dimen name="text_size_title_details">24sp</dimen>
+
+    <dimen name="margin_sides_category_details">109dp</dimen>
+    <dimen name="margin_top_category_details">80dp</dimen>
+    <dimen name="text_size_category_details">20sp</dimen>
+
+    <dimen name="margin_sides_label_details">58dp</dimen>
+    <dimen name="margin_top_label_details">191dp</dimen>
+    <dimen name="text_size_label_details">18sp</dimen>
+
+    <dimen name="margin_sides_text_details">137dp</dimen>
+    <dimen name="margin_top_text_details">101dp</dimen>
+    <dimen name="margin_end_text_details">136dp</dimen>
+    <dimen name="margin_right_text_details">136dp</dimen>
+    <dimen name="padding_text_details">55dip</dimen>
+
+
+</resources>

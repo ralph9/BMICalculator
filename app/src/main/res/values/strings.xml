@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BMIChecker</string>
+    <string name="about_the_author">About the author</string>
+    <string name="author_name">Raúl Núñez García</string>
+    <string name="text_about">Erasmus student in PWr from Asturias, Spain. 21 years old. Currently on the 3rd year of the Computer Science Bachelor. Interested in programming, nature, music and sports among others.</string>
+    <string name="weight_kg">Weight(kg):</string>
+    <string name="calculate">Calculate</string>
+    <string name="height_cm">Height(cm):</string>
+    <string name="bmi_result">BMI RESULT</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="wrong_inputs">The inputs are out of the range, please check them and try again</string>
+    <string name="empty_inputs">Please fill both fields in order to calculate the BMI</string>
+    <string name="ft_unit">ft</string>
+    <string name="lb_unit">lb</string>
+    <string name="details_underweight">Corresponds to a BMI value of less than 18.5. It causes health risks, and in most cases it may indicate malnutrition, an eating disorder or other similar problems.</string>
+    <string name="details_normal">Corresponds to a BMI value between 18.5 and 24.9. It is the healthy range, and indicates lower probabilities of suffering health problems.</string>
+    <string name="details_overweight">Corresponds to a BMI value between 25 and 29.9. It is slightly over the recommended range, and carries a moderate risk of suffering health problems.</string>
+    <string name="details_obese">Corresponds to a BMI value between 30 and 39.9. It comes with a high risk of suffering health problems such as heart diseases, high blood pressure or diabetes.</string>
+    <string name="details_extremelyobese">Corresponds to a BMI value over 40. It causes a very high risk of suffering severe health problems. Anybody with values in this range must seek medical help.</string>
+    <string name="height_ft">Height(ft):</string>
+    <string name="weight_lb">Weight(lb):</string>
+    <string name="changet_to_metric">Changed to metric units</string>
+    <string name="change_to_imperial">Changed to imperial units</string>
+</resources>
